@@ -1,23 +1,23 @@
-# Use a .NET SDK image to build and run the program
+# Usa una imagen base de .NET SDK para compilar y ejecutar el programa
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 
-# Set the working directory inside the container
+# Crea el directorio de trabajo en el contenedor
 WORKDIR /app
 
-# Copy the C# source file into the container
+# Copia el archivo fuente C# al contenedor
 COPY Program.cs .
 
-# Compile the program
-RUN dotnet new console -o . -n HelloWorldApp && dotnet build
+# Crea un directorio separado para el proyecto y lo compila
+RUN dotnet new console -o HelloWorldApp && dotnet build HelloWorldApp
 
-# Use a lightweight .NET Runtime image to run the program
+# Usa una imagen ligera de .NET Runtime para ejecutar el programa
 FROM mcr.microsoft.com/dotnet/runtime:7.0
 
-# Set the working directory in the container
+# Establece el directorio de trabajo en el contenedor
 WORKDIR /app
 
-# Copy the compiled files from the build stage
-COPY --from=build /app/bin/Debug/net7.0 .
+# Copia los archivos compilados desde la etapa de compilación
+COPY --from=build /app/HelloWorldApp/bin/Debug/net7.0 .
 
-# Specify the command to run the application
-CMD ["dotnet", "HolaMundoApp.dll"]
+# Especifica el comando para ejecutar la aplicación
+CMD ["dotnet", "HelloWorldApp.dll"]
