@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "BcarOth+FbvDnlMgka1CU7qKEnFXF7PmTK0S+if33lPXttQGNKIT5bOwyO8Ob5tjxApyZ4Yvtl/AqPnrtLCFlA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AlEgA\\HolaMundoRailway\\HolaMundoAPI\\HolaMundoAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AlEgA\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\AlEgA\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\AlEgA\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\AlEgA\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\AlEgA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\AlEgA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

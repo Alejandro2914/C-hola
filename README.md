@@ -1,18 +1,24 @@
-# C# Hello World
+# Hello World API
 
-This is a simple "Hello World" application written in C#. It demonstrates the basic usage of C# to print a message to the console.
+This project is a simple "Hello World" API built with ASP.NET Core. The API provides a single endpoint that returns a "Hello World" message, designed to be deployed to Railway for easy cloud hosting and access.
 
-## Requirements
+## Features
 
-To run this project, you need the following:
+- ASP.NET Core Web API.
+- Single endpoint (`/HelloWorld`) that returns a "Hello World" message.
+- Configured for deployment to Railway with HTTP only, no HTTPS required.
+- Lightweight and ideal for testing and demonstration purposes.
 
-- .NET SDK 6.0 or higher installed on your system.
+## Getting Started
 
-### Install .NET SDK
+### Prerequisites
 
-If you don't have the .NET SDK installed, you can download it from the official website: [Download .NET](https://dotnet.microsoft.com/download/dotnet).
+- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0) or later.
+- [Railway account](https://railway.app/) if you want to deploy to the cloud.
 
-You can verify that .NET is installed by running the following command in your terminal:
+### Installation
 
-```bash
-dotnet --version
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/HelloWorldAPI.git
+   cd HelloWorldAPI
