@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlEgA\\HolaMundoRailway\\HolaMundoAPI\\HolaMundoAPI.csproj": {}
+    "C:\\Users\\AlEgA\\Downloads\\HolaC\\HolaMundoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlEgA\\HolaMundoRailway\\HolaMundoAPI\\HolaMundoAPI.csproj": {
+    "C:\\Users\\AlEgA\\Downloads\\HolaC\\HolaMundoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlEgA\\HolaMundoRailway\\HolaMundoAPI\\HolaMundoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\AlEgA\\Downloads\\HolaC\\HolaMundoAPI.csproj",
         "projectName": "HolaMundoAPI",
-        "projectPath": "C:\\Users\\AlEgA\\HolaMundoRailway\\HolaMundoAPI\\HolaMundoAPI.csproj",
+        "projectPath": "C:\\Users\\AlEgA\\Downloads\\HolaC\\HolaMundoAPI.csproj",
         "packagesPath": "C:\\Users\\AlEgA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlEgA\\HolaMundoRailway\\HolaMundoAPI\\obj\\",
+        "outputPath": "C:\\Users\\AlEgA\\Downloads\\HolaC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AlEgA\\AppData\\Roaming\\NuGet\\NuGet.Config"

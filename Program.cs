@@ -6,7 +6,7 @@ builder.Services.AddControllers();
 // Configurar Kestrel para que solo escuche en HTTP
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenAnyIP(5000); // Cambia a otro puerto si es necesario
+    options.ListenAnyIP(8080); // Cambia a otro puerto si es necesario
 });
 
 var app = builder.Build();
