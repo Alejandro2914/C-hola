@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlEgA\\HolaMundoweb\\HolaMundoweb.csproj": {}
+    "C:\\Users\\AlEgA\\Downloads\\HolaC\\HolaMundoweb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlEgA\\HolaMundoweb\\HolaMundoweb.csproj": {
+    "C:\\Users\\AlEgA\\Downloads\\HolaC\\HolaMundoweb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlEgA\\HolaMundoweb\\HolaMundoweb.csproj",
+        "projectUniqueName": "C:\\Users\\AlEgA\\Downloads\\HolaC\\HolaMundoweb.csproj",
         "projectName": "HolaMundoweb",
-        "projectPath": "C:\\Users\\AlEgA\\HolaMundoweb\\HolaMundoweb.csproj",
+        "projectPath": "C:\\Users\\AlEgA\\Downloads\\HolaC\\HolaMundoweb.csproj",
         "packagesPath": "C:\\Users\\AlEgA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlEgA\\HolaMundoweb\\obj\\",
+        "outputPath": "C:\\Users\\AlEgA\\Downloads\\HolaC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AlEgA\\AppData\\Roaming\\NuGet\\NuGet.Config"
